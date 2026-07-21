@@ -1,0 +1,14 @@
+{
+  "name": "@project3/astryx-templates",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./templates/*.tsx": "./templates/*.tsx"
+  },
+  "peerDependencies": {
+    "@astryxdesign/cli": "^0.1.7",
+    "@astryxdesign/core": "^0.1.7",
+    "react": "^19.2.7"
+  }
+}
